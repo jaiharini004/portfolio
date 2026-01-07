@@ -11,7 +11,7 @@ const Skills = () => {
     ];
 
     return (
-        <section id="skills" className="py-20 bg-primary">
+        <section id="skills" className="py-20 relative z-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -20,7 +20,7 @@ const Skills = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Technical Skills</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-accent to-blue-600 bg-clip-text text-transparent mb-4">Technical Skills</h2>
                     <div className="w-20 h-1 bg-accent mx-auto rounded"></div>
                 </motion.div>
 
@@ -33,9 +33,9 @@ const Skills = () => {
                             transition={{ duration: 0.3, delay: index * 0.05 }}
                             viewport={{ once: true }}
                             whileHover={{ scale: 1.05 }}
-                            className="bg-secondary px-6 py-3 rounded-lg border border-white/5 shadow-sm hover:border-accent/50 transition-colors"
+                            className="bg-white/5 backdrop-blur-sm px-6 py-3 rounded-lg border border-white/10 shadow-[0_0_10px_rgba(59,130,246,0.2)] hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:-translate-y-1 transition-all"
                         >
-                            <span className="text-gray-200 font-medium">{skill}</span>
+                            <span className="text-text-muted font-medium">{skill}</span>
                         </motion.div>
                     ))}
                 </div>
