@@ -14,6 +14,16 @@ const Hero = () => {
                     transition={{ duration: 0.5 }}
                 >
 
+                    {/* Profile Image */}
+                    <div className="relative w-48 h-48 mx-auto mb-8">
+                        <div className="absolute inset-0 bg-accent/20 rounded-full blur-xl animate-pulse"></div>
+                        <img
+                            src={profileImg}
+                            alt="Profile"
+                            className="relative w-full h-full rounded-full object-cover border-2 border-accent shadow-[0_0_20px_rgba(59,130,246,0.5)]"
+                        />
+                    </div>
+
                     {/* Header */}
                     <h1 className="text-5xl md:text-7xl font-bold text-text mb-6">
                         Hi, I'm <span className="bg-gradient-to-r from-accent to-accent-purple bg-clip-text text-transparent">Jai Harini K S</span>
