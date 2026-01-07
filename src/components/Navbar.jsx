@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
                         <a href="#" className="font-bold text-xl text-accent">
-                            Portfolio
+                            Jai Harini
                         </a>
                     </div>
                     <div className="hidden md:block">
