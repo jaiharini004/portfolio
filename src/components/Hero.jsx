@@ -48,10 +48,12 @@ const Hero = () => {
                     {/* Buttons */}
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
                         <a
-                            href="#projects"
-                            className="bg-gradient-to-r from-accent to-accent-purple text-white font-bold py-3 px-8 rounded-full transition-all shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(139,92,246,0.6)] hover:-translate-y-1"
+                            href="/resume.pdf"
+                            download="Jai_Harini_Resume.pdf"
+                            className="bg-gradient-to-r from-accent to-accent-purple text-white font-bold py-3 px-8 rounded-full transition-all shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(139,92,246,0.6)] hover:-translate-y-1 flex items-center gap-2"
                         >
-                            View My Work
+                            <FiDownload className="text-xl" />
+                            Download Resume
                         </a>
                         <a
                             href="#contact"

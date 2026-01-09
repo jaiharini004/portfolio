@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 const Skills = () => {
     const skills = [
         "Python", "SQL", "Java (Basics)",
+        "Pandas", "Numpy", "Matplotlib", "n8n",
         "Data Cleaning", "ETL", "EDA", "Excel",
         "Machine Learning", "Deep Learning", "TensorFlow", "Keras",
         "Power BI", "Tableau", "MySQL",
