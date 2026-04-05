@@ -36,20 +36,20 @@ const Hero = () => {
                         </motion.span>
                     </h1>
                     <h2 className="text-2xl md:text-3xl text-text-muted mb-8 font-light">
-                        AI & Data Science Enthusiast
+                        Final-Year AI & Data Science Student
                     </h2>
 
                     <p className="text-lg text-text-muted mb-10 max-w-2xl mx-auto leading-relaxed">
-                        Passionate about Data Analytics, AI, and building interactive dashboards.
-                        Experienced in data cleaning, EDA, ETL, and Machine Learning.
-                        Building intelligent solutions that make a difference.
+                        Strong foundation in Machine Learning, Deep Learning, and Generative AI.
+                        Skilled in Python, TensorFlow, and prompt engineering to build end-to-end AI applications,
+                        from image classification to automated intelligent workflows.
                     </p>
 
                     {/* Buttons */}
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
                         <a
-                            href="/JaiHarini_Resume.pdf"
-                            download="JaiHarini_Resume.pdf"
+                            href="/Jai%20Harini_Resume.pdf"
+                            download="Jai Harini_Resume.pdf"
                             className="bg-gradient-to-r from-accent to-accent-purple text-white font-bold py-3 px-8 rounded-full transition-all shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(139,92,246,0.6)] hover:-translate-y-1 flex items-center gap-2"
                         >
                             <FiDownload className="text-xl" />
@@ -67,7 +67,7 @@ const Hero = () => {
                     <div className="flex justify-center gap-6 text-2xl text-text-muted">
                         <a href="https://github.com/jaiharini004" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors"><FiGithub /></a>
                         <a href="https://www.linkedin.com/in/jaiharini004/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors"><FiLinkedin /></a>
-                        <a href="https://leetcode.com/u/Harini-Suresh" target="_blank" rel="noopener noreferrer" className="hover:text-accent-green transition-colors"><FiCode /></a>
+                        <a href="https://leetcode.com/u/jaiharini004/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-green transition-colors"><FiCode /></a>
                     </div>
                 </motion.div>
             </div>

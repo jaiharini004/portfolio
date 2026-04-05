@@ -4,16 +4,22 @@ import { motion } from 'framer-motion';
 const Experience = () => {
     const experiences = [
         {
-            role: 'Python Programming Intern',
-            company: 'CodSoft',
-            duration: '2025',
-            description: 'Developed Python mini-projects including calculator, Rock–Paper–Scissors game, contact book, to-do list, and password generator using core Python concepts.',
+            role: 'B.Tech in Artificial Intelligence and Data Science (CGPA: 8.46)',
+            company: 'K.L.N. College of Engineering, Sivagangai, Tamil Nadu',
+            duration: '2022 - 2026',
+            description: 'Pursuing final-year engineering with core focus on AI, data science, and applied machine learning.',
         },
         {
-            role: 'Data Analytics Job Simulation',
-            company: 'Deloitte (Forage)',
+            role: 'Higher Secondary Schooling (Percentage: 80%)',
+            company: 'Sri Sarada Vidyavanam Girls Matric Higher Secondary School, Madurai, Tamil Nadu',
+            duration: '2022',
+            description: 'Completed higher secondary education with strong academic foundation in science and mathematics.',
+        },
+        {
+            role: 'Vote of Thanks Speaker - AISTHETICKA 2025',
+            company: 'K.L.N. College of Engineering',
             duration: '2025',
-            description: 'Data cleaning, EDA, and data visualization were performed using Pandas, Excel, Power BI, and Tableau to produce dashboards and a fraud-risk analysis report.',
+            description: 'Delivered the Vote of Thanks at the national-level technical symposium, demonstrating communication and leadership skills.',
         },
     ];
 
@@ -27,7 +33,7 @@ const Experience = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-accent to-blue-600 bg-clip-text text-transparent mb-4">Experience</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-accent to-blue-600 bg-clip-text text-transparent mb-4">Education & Activities</h2>
                     <div className="w-20 h-1 bg-accent mx-auto rounded"></div>
                 </motion.div>
 
