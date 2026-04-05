@@ -1,38 +1,46 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import skinDetectionImg from '../assets/skin_detection.png';
-import amazonSalesImg from '../assets/amazon_sales.png';
+import smartBrowserImg from '../assets/smartbrowser.png';
 import hireYouImg from '../assets/hireyou.png';
 import sportsAnalyticsImg from '../assets/sports_analytics.png';
+import xRayImg from '../assets/xray.png';
 
 const Projects = () => {
     const projects = [
         {
+            title: 'SmartBrowser: AI-Powered Multi-Modal Browser Automation',
+            description: 'Built an agentic browser assistant that reads page context, plans next actions, and executes multi-step web tasks using interchangeable LLM providers.',
+            tags: ['LLMs', 'Automation', 'Browser AI','Gradio', 'Python'],
+            link: 'https://github.com/jaiharini004?tab=repositories',
+            image: smartBrowserImg
+        },
+        {
             title: 'AI-Based Skin Disease Detection System',
-            description: 'A CNN-based skin disease classification system using transfer learning, trained on 3000+ images and deployed with Streamlit.',
+            description: 'Developed a transfer-learning pipeline for skin condition recognition and wrapped it in a Streamlit app for quick, user-friendly predictions.',
             tags: ['CNN', 'Deep Learning', 'Streamlit', 'Python'],
-            link: '#',
+            link: 'https://github.com/jaiharini004/AI-Skin-Disease-Detection',
             image: skinDetectionImg
         },
         {
             title: 'HireYou',
-            description: 'A Web application for role-based placement preparation using HTML, CSS, and JavaScript for role-specific practice and interview readiness.',
+            description: 'Created a role-based placement prep platform with focused practice tracks and an interface designed to keep interview preparation structured and simple.',
             tags: ['HTML', 'CSS', 'JavaScript', 'Web App'],
-            link: '#',
+            link: 'https://github.com/jaiharini004/HireYou-harini',
             image: hireYouImg
         },
         {
-            title: 'Amazon Sales Analytics Dashboard',
-            description: 'Power BI dashboard using Power Query and DAX to analyze sales trends, top categories, and regional performance.',
-            tags: ['Power BI', 'DAX', 'Power Query'],
-            link: '#',
-            image: amazonSalesImg
+            title: 'X-Ray Image Search Using Deep Learning',
+            description: 'Implemented a dual-query retrieval workflow where users can search X-ray cases using either natural language prompts or reference images.',
+            tags: ['Multimodal', 'Deep Learning', 'Computer Vision', 'Python'],
+            link: 'https://github.com/jaiharini004/X--Ray-Image-Search-Using-Deep-Learning',
+            image: xRayImg
         },
         {
             title: 'Sports Analytics Dashboard',
-            description: 'Power BI-based dashboard using EDA and KPIs to evaluate player and match performance across teams and seasons.',
+            description: 'Designed an interactive Power BI report to compare teams, players, and season trends through KPI-driven views and drill-down performance analysis.',
             tags: ['Power BI', 'EDA', 'KPIs'],
-            link: '#',
+            link: 'https://github.com/jaiharini004?tab=repositories',
             image: sportsAnalyticsImg
         },
     ];
@@ -80,6 +88,8 @@ const Projects = () => {
                                 </div>
                                 <a
                                     href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="inline-block bg-accent hover:bg-accent-hover text-white font-semibold py-2 px-6 rounded-full transition-all shadow-[0_0_15px_rgba(14,165,233,0.4)] hover:shadow-[0_0_25px_rgba(14,165,233,0.6)] hover:-translate-y-1 text-sm"
                                 >
                                     View Project

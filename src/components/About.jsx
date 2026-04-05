@@ -24,12 +24,14 @@ const About = () => {
                     className="max-w-3xl mx-auto text-lg text-text-muted leading-relaxed text-center"
                 >
                     <p className="mb-6">
-                        I am a final-year B.Tech AI & Data Science student with a strong interest in Data Analytics and AI.
-                        I have gained experience in data cleaning, EDA, ETL, and building interactive dashboards using Power BI and Tableau.
+                        I am a final-year B.Tech student in Artificial Intelligence and Data Science with a strong foundation in ML,
+                        Deep Learning, and Generative AI. I enjoy building practical AI systems that combine model capability,
+                        clean data pipelines, and real-world usability.
                     </p>
                     <p>
-                        Proficient in Python and SQL, I possess foundational knowledge of machine learning and deep learning concepts.
-                        I am passionate about applying these skills to solve real-world problems and creating meaningful data-driven solutions.
+                        My work spans Python-based AI development, TensorFlow and CNN applications, prompt engineering,
+                        and workflow automation. I also work with EDA, ETL, and analytics tools to turn data into
+                        actionable solutions through dashboards and applications.
                     </p>
                 </motion.div>
             </div>

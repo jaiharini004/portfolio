@@ -17,21 +17,6 @@ const Certifications = () => {
             title: "Google Analytics",
             issuer: "Google",
             description: "Analyzed user behavior, events, and performance metrics for business insights."
-        },
-        {
-            title: "Python Programming Intern",
-            issuer: "CodSoft",
-            description: "Applied core Python concepts including loops, functions, and file handling."
-        },
-        {
-            title: "Data Analytics Job Simulation",
-            issuer: "Forage",
-            description: "Applied fundamental data analysis methods and forensic concepts."
-        },
-        {
-            title: "Microsoft Azure Cloud Certification",
-            issuer: "Value-added Course",
-            description: "Learned cloud fundamentals, Azure services, and basic deployment concepts."
         }
     ];
 
