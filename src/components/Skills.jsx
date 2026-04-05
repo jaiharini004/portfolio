@@ -3,11 +3,20 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
     const skills = [
+<<<<<<< HEAD
         "Python", "MySQL", "Java (Basics)",
         "Large Language Models (LLMs)", "RAG", "Prompt Engineering", "APIs", "n8n Workflows",
         "Machine Learning", "Deep Learning", "TensorFlow", "Keras", "CNNs",
         "Data Cleaning", "EDA", "ETL", "Pandas", "NumPy", "Matplotlib", "Excel",
         "Power BI", "Tableau", "Streamlit", "Git", "GitHub", "Firebase"
+=======
+        "Python", "SQL", "Java (Basics)",
+        "Pandas", "Numpy", "Matplotlib", "n8n",
+        "Data Cleaning", "ETL", "EDA", "Excel",
+        "Machine Learning", "Deep Learning", "TensorFlow", "Keras",
+        "Power BI", "Tableau", "MySQL",
+        "Streamlit", "Git", "GitHub", "Firebase"
+>>>>>>> bf22b84ae99d3bca1ee2642bc4740c896289db61
     ];
 
     return (
